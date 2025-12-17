@@ -15,7 +15,7 @@ const config = {
   baseUrl: '/textbook-frontend/',
 
   // GitHub pages deployment config
-  organizationName: 'serioussafwan', // Usually your GitHub org/user name
+  organizationName: 'seriousahmad', // Usually your GitHub org/user name
   projectName: 'physicalandhumanoidroboticsfrontend', // Usually your repo name
   deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from
 
