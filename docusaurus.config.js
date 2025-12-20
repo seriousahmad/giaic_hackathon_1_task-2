@@ -12,11 +12,11 @@ const config = {
   url: 'https://your-username.github.io',
   // Set the /<base>/ pathname under which your site is served
   // For GitHub pages deployment, it's usually '/<repo-name>/'
-  baseUrl: '/textbook-frontend/',
+  baseUrl: '/',
 
   // GitHub pages deployment config
   organizationName: 'seriousahmad', // Usually your GitHub org/user name
-  projectName: 'physicalandhumanoidroboticsfrontend', // Usually your repo name
+  projectName: 'giaic_hackathon_1_speckitplus', // Usually your repo name
   deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/textbook-frontend/tree/main/',
+            'https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/',
         },
         blog: false, // Disable blog if not needed
         theme: {
@@ -69,7 +69,7 @@ const config = {
             label: 'Chapters',
           },
           {
-            href: 'https://github.com/your-username/textbook-frontend',
+            href: 'https://github.com/seriousahmad/giaic_hackathon_1_speckitplus',
             label: 'GitHub',
             position: 'right',
           },

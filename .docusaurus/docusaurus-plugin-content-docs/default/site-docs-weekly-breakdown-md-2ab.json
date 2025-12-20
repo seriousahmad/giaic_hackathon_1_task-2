@@ -5,10 +5,10 @@
   "source": "@site/docs/weekly-breakdown.md",
   "sourceDirName": ".",
   "slug": "/weekly-breakdown",
-  "permalink": "/textbook-frontend/docs/weekly-breakdown",
+  "permalink": "/docs/weekly-breakdown",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/weekly-breakdown.md",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/weekly-breakdown.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Learning Outcomes",
-    "permalink": "/textbook-frontend/docs/learning-outcomes"
+    "permalink": "/docs/learning-outcomes"
   },
   "next": {
     "title": "Assessments",
-    "permalink": "/textbook-frontend/docs/assessments"
+    "permalink": "/docs/assessments"
   }
 }

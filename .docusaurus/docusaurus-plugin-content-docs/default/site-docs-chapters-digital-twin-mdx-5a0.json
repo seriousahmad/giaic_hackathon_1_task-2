@@ -5,10 +5,10 @@
   "source": "@site/docs/chapters/digital-twin.mdx",
   "sourceDirName": "chapters",
   "slug": "/chapters/digital-twin",
-  "permalink": "/textbook-frontend/docs/chapters/digital-twin",
+  "permalink": "/docs/chapters/digital-twin",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/chapters/digital-twin.mdx",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/chapters/digital-twin.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: The Robotic Nervous System (ROS 2)",
-    "permalink": "/textbook-frontend/docs/chapters/robotic-nervous-system"
+    "permalink": "/docs/chapters/robotic-nervous-system"
   },
   "next": {
     "title": "Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)",
-    "permalink": "/textbook-frontend/docs/chapters/ai-robot-brain"
+    "permalink": "/docs/chapters/ai-robot-brain"
   }
 }

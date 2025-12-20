@@ -5,10 +5,10 @@
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/textbook-frontend/docs/",
+  "permalink": "/docs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/index.md",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Chapter 1: The Robotic Nervous System (ROS 2)",
-    "permalink": "/textbook-frontend/docs/chapters/robotic-nervous-system"
+    "permalink": "/docs/chapters/robotic-nervous-system"
   }
 }

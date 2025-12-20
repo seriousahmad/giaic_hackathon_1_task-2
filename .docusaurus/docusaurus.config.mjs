@@ -8,9 +8,9 @@ export default {
   "tagline": "A comprehensive textbook on embodied intelligence",
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
-  "baseUrl": "/textbook-frontend/",
-  "organizationName": "your-username",
-  "projectName": "textbook-frontend",
+  "baseUrl": "/",
+  "organizationName": "seriousahmad",
+  "projectName": "giaic_hackathon_1_speckitplus",
   "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/"
+          "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/"
         },
         "blog": false,
         "theme": {
@@ -52,7 +52,7 @@ export default {
           "label": "Chapters"
         },
         {
-          "href": "https://github.com/your-username/textbook-frontend",
+          "href": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus",
           "label": "GitHub",
           "position": "right"
         }

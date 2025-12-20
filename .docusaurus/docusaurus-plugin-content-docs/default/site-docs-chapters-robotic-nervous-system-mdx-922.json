@@ -5,10 +5,10 @@
   "source": "@site/docs/chapters/robotic-nervous-system.mdx",
   "sourceDirName": "chapters",
   "slug": "/chapters/robotic-nervous-system",
-  "permalink": "/textbook-frontend/docs/chapters/robotic-nervous-system",
+  "permalink": "/docs/chapters/robotic-nervous-system",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/chapters/robotic-nervous-system.mdx",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/chapters/robotic-nervous-system.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Home",
-    "permalink": "/textbook-frontend/docs/"
+    "permalink": "/docs/"
   },
   "next": {
     "title": "Chapter 2: The Digital Twin (Gazebo & Unity)",
-    "permalink": "/textbook-frontend/docs/chapters/digital-twin"
+    "permalink": "/docs/chapters/digital-twin"
   }
 }

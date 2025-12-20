@@ -5,10 +5,10 @@
   "source": "@site/docs/hardware-requirements.md",
   "sourceDirName": ".",
   "slug": "/hardware-requirements",
-  "permalink": "/textbook-frontend/docs/hardware-requirements",
+  "permalink": "/docs/hardware-requirements",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/hardware-requirements.md",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/hardware-requirements.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Assessments",
-    "permalink": "/textbook-frontend/docs/assessments"
+    "permalink": "/docs/assessments"
   }
 }

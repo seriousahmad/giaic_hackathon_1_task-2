@@ -1,53 +1,53 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/textbook-frontend/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/textbook-frontend/docs",
+          "path": "/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "assessments",
-              "path": "/textbook-frontend/docs/assessments",
+              "path": "/docs/assessments",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chapters/ai-robot-brain",
-              "path": "/textbook-frontend/docs/chapters/ai-robot-brain",
+              "path": "/docs/chapters/ai-robot-brain",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chapters/digital-twin",
-              "path": "/textbook-frontend/docs/chapters/digital-twin",
+              "path": "/docs/chapters/digital-twin",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "chapters/robotic-nervous-system",
-              "path": "/textbook-frontend/docs/chapters/robotic-nervous-system",
+              "path": "/docs/chapters/robotic-nervous-system",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "hardware-requirements",
-              "path": "/textbook-frontend/docs/hardware-requirements",
+              "path": "/docs/hardware-requirements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "index",
-              "path": "/textbook-frontend/docs/",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "learning-outcomes",
-              "path": "/textbook-frontend/docs/learning-outcomes",
+              "path": "/docs/learning-outcomes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "weekly-breakdown",
-              "path": "/textbook-frontend/docs/weekly-breakdown",
+              "path": "/docs/weekly-breakdown",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -55,7 +55,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/textbook-frontend/docs/",
+                "path": "/docs/",
                 "label": "index"
               }
             }

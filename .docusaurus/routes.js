@@ -3,97 +3,97 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/textbook-frontend/__docusaurus/debug',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug', '329'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/config',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/config', '1cd'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/content',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/content', '58a'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/globalData',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/globalData', '5c8'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/metadata',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/metadata', 'df1'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/registry',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/registry', '10f'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/textbook-frontend/__docusaurus/debug/routes',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/routes', 'd35'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/textbook-frontend/docs',
-    component: ComponentCreator('/textbook-frontend/docs', '560'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '173'),
     routes: [
       {
-        path: '/textbook-frontend/docs',
-        component: ComponentCreator('/textbook-frontend/docs', 'b1c'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '160'),
         routes: [
           {
-            path: '/textbook-frontend/docs',
-            component: ComponentCreator('/textbook-frontend/docs', 'b62'),
+            path: '/docs',
+            component: ComponentCreator('/docs', 'a00'),
             routes: [
               {
-                path: '/textbook-frontend/docs/',
-                component: ComponentCreator('/textbook-frontend/docs/', '6d7'),
+                path: '/docs/',
+                component: ComponentCreator('/docs/', '4a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/assessments',
-                component: ComponentCreator('/textbook-frontend/docs/assessments', '2e2'),
+                path: '/docs/assessments',
+                component: ComponentCreator('/docs/assessments', '9ce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/chapters/ai-robot-brain',
-                component: ComponentCreator('/textbook-frontend/docs/chapters/ai-robot-brain', '3f8'),
+                path: '/docs/chapters/ai-robot-brain',
+                component: ComponentCreator('/docs/chapters/ai-robot-brain', '436'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/chapters/digital-twin',
-                component: ComponentCreator('/textbook-frontend/docs/chapters/digital-twin', '4a8'),
+                path: '/docs/chapters/digital-twin',
+                component: ComponentCreator('/docs/chapters/digital-twin', '2d9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/chapters/robotic-nervous-system',
-                component: ComponentCreator('/textbook-frontend/docs/chapters/robotic-nervous-system', '45c'),
+                path: '/docs/chapters/robotic-nervous-system',
+                component: ComponentCreator('/docs/chapters/robotic-nervous-system', 'af3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/hardware-requirements',
-                component: ComponentCreator('/textbook-frontend/docs/hardware-requirements', '7b2'),
+                path: '/docs/hardware-requirements',
+                component: ComponentCreator('/docs/hardware-requirements', '663'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/learning-outcomes',
-                component: ComponentCreator('/textbook-frontend/docs/learning-outcomes', 'cb1'),
+                path: '/docs/learning-outcomes',
+                component: ComponentCreator('/docs/learning-outcomes', '769'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/textbook-frontend/docs/weekly-breakdown',
-                component: ComponentCreator('/textbook-frontend/docs/weekly-breakdown', '6f7'),
+                path: '/docs/weekly-breakdown',
+                component: ComponentCreator('/docs/weekly-breakdown', '776'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -102,6 +102,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
+    exact: true
   },
   {
     path: '*',

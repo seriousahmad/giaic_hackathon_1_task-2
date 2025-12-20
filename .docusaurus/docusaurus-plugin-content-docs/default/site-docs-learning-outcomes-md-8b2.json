@@ -5,10 +5,10 @@
   "source": "@site/docs/learning-outcomes.md",
   "sourceDirName": ".",
   "slug": "/learning-outcomes",
-  "permalink": "/textbook-frontend/docs/learning-outcomes",
+  "permalink": "/docs/learning-outcomes",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/learning-outcomes.md",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/learning-outcomes.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)",
-    "permalink": "/textbook-frontend/docs/chapters/ai-robot-brain"
+    "permalink": "/docs/chapters/ai-robot-brain"
   },
   "next": {
     "title": "Weekly Breakdown",
-    "permalink": "/textbook-frontend/docs/weekly-breakdown"
+    "permalink": "/docs/weekly-breakdown"
   }
 }

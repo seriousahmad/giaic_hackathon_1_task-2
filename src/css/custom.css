@@ -140,3 +140,14 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(135deg, var(--book-gradient-end), var(--book-gradient-start));
   color: white;
 }
+
+/* Hover effect for navbar links */
+.navbar__link:hover,
+.navbar__title:hover {
+  background-color: #90EE90 !important; /* Light green */
+  color: #2d3748 !important; /* Dark text for contrast */
+  border-radius: 4px;
+  padding: 4px 8px;
+  transition: all 0.3s ease;
+}
+

@@ -5,10 +5,10 @@
   "source": "@site/docs/chapters/ai-robot-brain.mdx",
   "sourceDirName": "chapters",
   "slug": "/chapters/ai-robot-brain",
-  "permalink": "/textbook-frontend/docs/chapters/ai-robot-brain",
+  "permalink": "/docs/chapters/ai-robot-brain",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/chapters/ai-robot-brain.mdx",
+  "editUrl": "https://github.com/seriousahmad/giaic_hackathon_1_speckitplus/tree/main/docs/chapters/ai-robot-brain.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: The Digital Twin (Gazebo & Unity)",
-    "permalink": "/textbook-frontend/docs/chapters/digital-twin"
+    "permalink": "/docs/chapters/digital-twin"
   },
   "next": {
     "title": "Learning Outcomes",
-    "permalink": "/textbook-frontend/docs/learning-outcomes"
+    "permalink": "/docs/learning-outcomes"
   }
 }
