@@ -1,0 +1,5 @@
+spec:
+  python: "3.11"
+  accelerate: "none"
+  requirements: "requirements.txt"
+  app_port: 7860
