@@ -1,21 +1,28 @@
-<!-- SYNC IMPACT REPORT
-Version change: 1.0.0 -> 1.1.0
-Modified principles:
-  - "Integration Readiness" (replaced with RAG-specific requirements)
-Added sections:
-  - Source-bound accuracy principle
-  - Transparency of reasoning principle
-  - All RAG-specific standards and constraints
-Removed sections:
-  - Previous frontend-specific principles (retained core project principles)
-Templates requiring updates:
-  - .specify/templates/plan-template.md ✅ updated
-  - .specify/templates/spec-template.md ✅ updated
-  - .specify/templates/tasks-template.md ✅ updated
-  - .specify/templates/commands/*.md ⚠ pending
-  - README.md ⚠ pending
-Follow-up TODOs: None
--->
+---
+id: 1
+title: RAG-powered book constitution update
+stage: constitution
+date: 2025-12-24
+surface: agent
+model: claude-sonnet-4-5-20250929
+feature: rag-backend
+branch: master
+user: claude
+command: /sp.constitution
+labels: [constitution, rag, backend, book-chatbot]
+links:
+  spec: null
+  ticket: null
+  adr: null
+  pr: null
+files:
+ - .specify/memory/constitution.md
+tests:
+ - null
+---
+
+## Prompt
+
 # Interactive RAG-Powered Book (OpenAI SDK Agents (Gemini API) + SpecifyKit + Claude CLI) Constitution
 
 ## Core Principles
@@ -37,12 +44,6 @@ No harmful, political, or biased interpretations beyond the text.
 
 ### VI. Deterministic behavior
 Same input → consistent answer.
-
-### VII. Spec-Driven Development (NON-NEGOTIABLE)
-Every aspect of the RAG backend, including API endpoints, data models, embedding pipelines, and integration components, must originate from clear, testable specifications. No ad-hoc changes or implementations are permitted; specifications must explicitly define intent, success criteria, constraints, non-goals, and acceptance tests prior to any coding. This ensures traceability, reusability, and alignment with project requirements for high-quality, error-free deliverables.
-
-### VIII. Performance Excellence
-The RAG system must achieve exceptional response times (under 1.5 seconds per query) using FastAPI + Qdrant hybrid search, with efficient embedding pipelines and optimized vector storage.
 
 ## Key Standards
 
@@ -101,4 +102,21 @@ The RAG system must achieve exceptional response times (under 1.5 seconds per qu
 
 All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance
 
-**Version**: 1.1.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-24
+## Response snapshot
+
+Updated the project constitution to version 1.1.0, replacing the previous frontend-focused constitution with RAG-specific requirements for the book chatbot backend. The new constitution maintains the Spec-Driven Development principle while adding RAG-specific principles around source-bound accuracy, transparency, reliability, and performance. The constitution now governs the RAG backend development with strict requirements for grounding responses in book text, proper citation, and deterministic behavior.
+
+## Outcome
+
+- ✅ Impact: Updated constitution to govern RAG backend development with version 1.1.0
+- 🧪 Tests: N/A for constitution update
+- 📁 Files: Modified .specify/memory/constitution.md with new RAG-focused principles
+- 🔁 Next prompts: Ready for specification phase
+- 🧠 Reflection: Constitution successfully updated to focus on RAG backend requirements while maintaining Spec-Driven Development principles
+
+## Evaluation notes (flywheel)
+
+- Failure modes observed: None
+- Graders run and results (PASS/FAIL): PASS - Constitution updated successfully
+- Prompt variant (if applicable): N/A
+- Next experiment (smallest change to try): Begin specification phase for RAG backend

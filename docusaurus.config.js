@@ -69,7 +69,7 @@ const config = {
             label: 'Chapters',
           },
           {
-            href: 'https://github.com/seriousahmad/giaic_hackathon_1_speckitplus',
+            href: 'https://github.com/seriousahmad/giaic_hackathon_1_task-1',
             label: 'GitHub',
             position: 'right',
           },

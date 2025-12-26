@@ -18,7 +18,7 @@ const ChatbotPlaceholder = () => {
   };
 
   // Handle sending a message
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (inputValue.trim() !== '') {
       const newMessage = {
         id: Date.now(),
@@ -29,16 +29,44 @@ const ChatbotPlaceholder = () => {
 
       setMessages(prev => [...prev, newMessage]);
 
-      // Simulate bot response after a delay
-      setTimeout(() => {
-        const botResponse = {
+      try {
+        // Call the backend API
+        const response = await fetch('http://localhost:8000/api/ask', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ question: inputValue })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          const botResponse = {
+            id: Date.now() + 1,
+            text: data.answer,
+            sender: 'bot',
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+          };
+          setMessages(prev => [...prev, botResponse]);
+        } else {
+          const errorResponse = {
+            id: Date.now() + 1,
+            text: 'Sorry, I encountered an error processing your request. Please try again.',
+            sender: 'bot',
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+          };
+          setMessages(prev => [...prev, errorResponse]);
+        }
+      } catch (error) {
+        console.error('Error calling backend API:', error);
+        const errorResponse = {
           id: Date.now() + 1,
-          text: `I received your message: "${inputValue}". This is a placeholder response from the RAG chatbot. In a real implementation, this would connect to your textbook content.`,
+          text: 'Sorry, I\'m having trouble connecting to the textbook AI. Please make sure the backend server is running.',
           sender: 'bot',
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         };
-        setMessages(prev => [...prev, botResponse]);
-      }, 1000);
+        setMessages(prev => [...prev, errorResponse]);
+      }
 
       setInputValue('');
     }
